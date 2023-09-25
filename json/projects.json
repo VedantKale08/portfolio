@@ -1,0 +1,20 @@
+[
+    {
+        "id":1,
+        "title":"Chat Application",
+        "description":"Created a MENN stack, with NextJs chat application and integrated real time communication through socket.io",
+        "link":"https://github.com/VedantKale08/chat-app-frontend"
+    },
+    {
+        "id":2,
+        "title":"Travel",
+        "description":"Designed and implemented a single-page web application using Next.js as the foundation, with Tailwind CSS framework and AOS animations",
+        "link":"https://github.com/VedantKale08/Travel-website"
+    },
+    {
+        "id":3,
+        "title":"Youtube Clone",
+        "description":"Build a small segment of Youtube application by using Youtube V3 api with NextJs and tailwind CSS framework",
+        "link":"https://github.com/VedantKale08/Youtube-clone"
+    }
+]
