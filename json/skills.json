@@ -1,0 +1,47 @@
+[
+    {
+        "id":1,
+        "label":"NextJs",
+        "level":"86"
+    },
+    {
+        "id":2,
+        "label":"ReactJs",
+        "level":"86"
+    },
+    {
+        "id":3,
+        "label":"HTML & CSS",
+        "level":"90"
+    },
+    {
+        "id":4,
+        "label":"NodeJs",
+        "level":"60"
+    },
+    {
+        "id":5,
+        "label":"ExpressJs",
+        "level":"60"
+    },
+    {
+        "id":6,
+        "label":"Tailwind",
+        "level":"90"
+    },
+    {
+        "id":7,
+        "label":"MongoDB",
+        "level":"80"
+    },
+    {
+        "id":8,
+        "label":"MySQL",
+        "level":"75"
+    },
+    {
+        "id":9,
+        "label":"Laravel",
+        "level":"70"
+    }
+]

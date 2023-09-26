@@ -7,6 +7,7 @@ body{
   padding: 0;
   background: #140826;
   color: #fff;
+  list-style: none;
 }
 
 .bg-gradient{
@@ -59,4 +60,21 @@ body {
   /* Internet Explorer 10+ */
   scrollbar-width: none !important;
   /* Firefox */
+}
+
+.bar{
+  background-color: #353b48;
+  display: block;
+  height: 20px;
+  border:1px solid rgba(0,0,0,0.3);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.bar span{
+  height: 20px;
+  float: left;
+  background: rgb(118, 60, 172);
+  background: radial-gradient(circle, rgba(118, 60, 172, 1) 0%, rgba(118, 60, 172, 1) 0%, rgba(50, 15, 133, 1) 100%);
 }

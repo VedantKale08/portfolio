@@ -17,6 +17,10 @@ const Header = () => {
           href:"#projects"
         },
         {
+            label:"SKills",
+            href:"#skills"
+        },
+        {
             label:"Work",
             href:"#work"
         },
@@ -32,7 +36,7 @@ const Header = () => {
     <header className="flex fixed top-0 z-50 items-center w-screen h-[80px] text-white md:px-[12rem] pl-8 bg-[#1A0B2E]">
       <nav
         ref={navRef}
-        className="fixed top-0 left-0 h-screen w-screen text-[20px] bg-[rgb(0,0,0,0.9)] md:bg-transparent flex items-center justify-center flex-col gap-6 transition duration-[1s] -translate-y-[100vh] md:translate-y-0 md:relative md:flex-row md:justify-end"
+        className="fixed top-0 left-0 md:h-[80px] h-screen w-screen text-[20px] bg-[rgb(0,0,0,0.9)] md:bg-transparent flex items-center justify-center flex-col gap-6 transition duration-[1s] -translate-y-[100vh] md:translate-y-0 md:relative md:flex-row md:justify-end"
       >
         {navs.map((item, index) => (
           <Link
