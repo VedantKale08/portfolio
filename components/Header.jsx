@@ -1,6 +1,5 @@
 "use client"
-import Image from 'next/image';
-import Link from 'next/link';
+import { Link } from "react-scroll";
 import React, { useMemo, useRef, useState } from 'react'
 import { FaBars, FaTimes } from "react-icons/fa";
 
@@ -10,23 +9,23 @@ const Header = () => {
     const navs = useMemo(() => [
         {
           label:"Home",
-          href:"#home"
+          href:"home"
         },
         {
           label:"Projects",
-          href:"#projects"
+          href:"projects"
         },
         {
-            label:"SKills",
-            href:"#skills"
+            label:"Skills",
+            href:"skills"
         },
         {
             label:"Work",
-            href:"#work"
+            href:"work"
         },
         {
             label:"About",
-            href:"#about"
+            href:"about"
         },
     ],[]) 
     const showNavbar = () => {
@@ -40,8 +39,13 @@ const Header = () => {
       >
         {navs.map((item, index) => (
           <Link
-            href={item.href}
-            className={`mx-[2rem] relative before:content-[""] before:absolute before:left-0 before:bottom-0 before:w-full ${
+            activeClass="active"
+            spy={true}
+            smooth={true}
+            offset={-80}
+            duration={500}
+            to={item.href}
+            className={`mx-[2rem] cursor-pointer relative before:content-[""] before:absolute before:left-0 before:bottom-0 before:w-full ${
               item?.label == clicked ? "border-b-2" : "before:h-[2px]"
             }  before:bg-white before:scale-x-0 before:origin-center before:transform before:duration-[0.3s] before:ease-in-out before:hover:scale-x-[1]`}
             key={index}
