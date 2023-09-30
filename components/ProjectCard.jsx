@@ -18,7 +18,7 @@ const ProjectCard = ({item}) => {
           <p className="text-lg">{item.title}</p>
           <p className="text-base text-gray-400 mb-6">{item.description}</p>
           <a
-            _target="_blank"
+            target="_blank"
             href={item?.link}
             className="hover:opacity-80 flex gap-2 items-center"
           >

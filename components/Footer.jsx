@@ -6,7 +6,6 @@ import {
   AiFillInstagram,
   AiFillTwitterCircle,
 } from "react-icons/ai";
-import Link from 'next/link';
 
 const Footer = () => {
   return (
@@ -25,18 +24,18 @@ const Footer = () => {
             <ContactMe />
           </div>
           <div className="flex items-end gap-3 text-xl">
-            <Link href="https://github.com/VedantKale08">
+            <a target="_blank" href="https://github.com/VedantKale08">
               <AiFillGithub />
-            </Link>
-            <Link href="https://www.linkedin.com/in/vedant-kale-1b3b9523b/">
+            </a>
+            <a target="_blank" href="https://www.linkedin.com/in/vedant-kale-1b3b9523b/">
               <AiFillLinkedin />
-            </Link>
-            <Link href="https://www.instagram.com/mi_vedantkale/">
+            </a>
+            <a target="_blank" href="https://www.instagram.com/mi_vedantkale/">
               <AiFillInstagram />
-            </Link>
-            <Link href="https://twitter.com/VedantKale08">
+            </a>
+            <a target="_blank" href="https://twitter.com/VedantKale08">
               <AiFillTwitterCircle />
-            </Link>
+            </a>
           </div>
         </div>
       </div>
