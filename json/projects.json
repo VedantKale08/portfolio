@@ -3,7 +3,7 @@
         "id":1,
         "title":"Chat Application",
         "description":"Created a MENN stack, with NextJs chat application and integrated real time communication through socket.io",
-        "link":"https://github.com/VedantKale08/chat-app-frontend"
+        "link":"https://github.com/VedantKale08/chat-app-frontend" 
     },
     {
         "id":2,
