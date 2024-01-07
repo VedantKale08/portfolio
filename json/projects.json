@@ -7,12 +7,18 @@
     },
     {
         "id":2,
+        "title":"Meet and Streaming",
+        "description":"With the help of socket.io, peerJs and webRTC, I have created a video meet app where multiple users can meet and talk",
+        "link":"https://github.com/VedantKale08/Video-Streaming-Meet-frontend" 
+    },
+    {
+        "id":3,
         "title":"Travel",
         "description":"Designed and implemented a single-page web application using NextJs as the foundation, with Tailwind CSS framework and AOS animations",
         "link":"https://github.com/VedantKale08/Travel-website"
     },
     {
-        "id":3,
+        "id":4,
         "title":"Youtube Clone",
         "description":"Build a small segment of Youtube application by using Youtube V3 api with NextJs and tailwind CSS framework",
         "link":"https://github.com/VedantKale08/Youtube-clone"
