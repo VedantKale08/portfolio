@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import './globals.css'
 import { Figtree } from 'next/font/google'
 
@@ -13,5 +14,5 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>{children}</body>
     </html>
-  )
+  );
 }
