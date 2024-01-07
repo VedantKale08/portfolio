@@ -4,6 +4,7 @@ import { BiLinkExternal } from 'react-icons/bi';
 import Youtube from "@/assets/youtube.png";
 import Chat from "@/assets/chat.png";
 import Plane from "@/assets/plane.png";
+import Meet from "@/assets/meet.png";
 
 const ProjectCard = ({item}) => {
   return (
@@ -27,7 +28,7 @@ const ProjectCard = ({item}) => {
         </div>
         <div className="flex-1 flex justify-center items-center md:mt-0 mt-6">
           <Image
-            src={item.id == 1 ? Chat : item?.id == 2 ? Plane : Youtube}
+            src={item.id == 1 ? Chat : item?.id == 2 ? Meet : item?.id == 3 ? Plane : Youtube}
             alt=""
             className="w-[40%]"
           />
