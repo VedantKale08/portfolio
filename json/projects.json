@@ -13,9 +13,9 @@
     },
     {
         "id":3,
-        "title":"Travel",
-        "description":"Designed and implemented a single-page web application using NextJs as the foundation, with Tailwind CSS framework and AOS animations",
-        "link":"https://github.com/VedantKale08/Travel-website"
+        "title":"Online Vs Code",
+        "description":"Designed and implemented a vs code clone, with NextJs, typescript, Monaco Code editor and Judge0 api for compilation of codes.",
+        "link":"https://github.com/VedantKale08/Online-Vs-Code---frontend"
     },
     {
         "id":4,

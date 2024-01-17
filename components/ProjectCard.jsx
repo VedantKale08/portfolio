@@ -3,7 +3,7 @@ import React from 'react'
 import { BiLinkExternal } from 'react-icons/bi';
 import Youtube from "@/assets/youtube.png";
 import Chat from "@/assets/chat.png";
-import Plane from "@/assets/plane.png";
+import VsCode from "@/assets/vscode.png";
 import Meet from "@/assets/meet.png";
 
 const ProjectCard = ({item}) => {
@@ -28,9 +28,17 @@ const ProjectCard = ({item}) => {
         </div>
         <div className="flex-1 flex justify-center items-center md:mt-0 mt-6">
           <Image
-            src={item.id == 1 ? Chat : item?.id == 2 ? Meet : item?.id == 3 ? Plane : Youtube}
+            src={
+              item.id == 1
+                ? Chat
+                : item?.id == 2
+                ? Meet
+                : item?.id == 3
+                ? VsCode
+                : Youtube
+            }
             alt=""
-            className="w-[40%]"
+            className="w-[40%] rounded-xl"
           />
         </div>
       </div>
