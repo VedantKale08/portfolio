@@ -1,47 +1,52 @@
 [
     {
         "id":1,
-        "label":"NextJs",
+        "label":"NextJs/ReactJs",
         "level":"86"
     },
     {
         "id":2,
-        "label":"ReactJs",
+        "label":"JavaScript",
         "level":"86"
     },
     {
         "id":3,
+        "label":"TypeScript",
+        "level":"80"
+    },
+    {
+        "id":4,
         "label":"HTML & CSS",
         "level":"90"
     },
     {
-        "id":4,
+        "id":5,
         "label":"NodeJs",
         "level":"60"
     },
     {
-        "id":5,
+        "id":6,
         "label":"ExpressJs",
         "level":"60"
     },
     {
-        "id":6,
+        "id":7,
         "label":"Tailwind",
         "level":"90"
     },
     {
-        "id":7,
+        "id":8,
         "label":"MongoDB",
         "level":"80"
     },
     {
-        "id":8,
+        "id":9,
         "label":"MySQL",
         "level":"75"
     },
     {
-        "id":9,
+        "id":10,
         "label":"Laravel",
-        "level":"70"
+        "level":"40"
     }
 ]

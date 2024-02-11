@@ -29,7 +29,7 @@ const Work = () => {
             <br />
             <br />
             During my internship, I mastered
-            <b> NextJs VueJs, tailwind, Php, Laravel, MySQL</b> and even
+            <b> NextJs, VueJs, TailwindCSS, Laravel, MySQL</b> and even
             ventured into <b>Clevertap integration</b>, etc.
           </p>
         </div>

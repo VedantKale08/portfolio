@@ -29,13 +29,7 @@ const ProjectCard = ({item}) => {
         <div className="flex-1 flex justify-center items-center md:mt-0 mt-6">
           <Image
             src={
-              item.id == 1
-                ? Chat
-                : item?.id == 2
-                ? Meet
-                : item?.id == 3
-                ? VsCode
-                : Youtube
+              item.id === 1 || item.id === 3 ? Meet : item.id === 2 ?  Chat : VsCode
             }
             alt=""
             className="w-[40%] rounded-xl"
