@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import ProjectJson from "@/json/projects.json";
+import ProjectJson from "@/json/projects_json.js";
 import Image from "next/image";
 import Gradient from "@/assets/Gradient.svg";
 import Title from "./Title";

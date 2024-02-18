@@ -1,10 +1,6 @@
 import Image from 'next/image';
 import React from 'react'
 import { BiLinkExternal } from 'react-icons/bi';
-import Youtube from "@/assets/youtube.png";
-import Chat from "@/assets/chat.png";
-import VsCode from "@/assets/vscode.png";
-import Meet from "@/assets/meet.png";
 
 const ProjectCard = ({item}) => {
   return (
@@ -28,9 +24,7 @@ const ProjectCard = ({item}) => {
         </div>
         <div className="flex-1 flex justify-center items-center md:mt-0 mt-6">
           <Image
-            src={
-              item.id === 1 || item.id === 3 ? Meet : item.id === 2 ?  Chat : VsCode
-            }
+            src={item?.icon}
             alt=""
             className="w-[40%] rounded-xl"
           />
