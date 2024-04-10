@@ -1,5 +1,5 @@
 import StudyNex from "@/assets/study.png";
-import Chat from "@/assets/chat.png";
+import Insta from "@/assets/insta.png";
 import VsCode from "@/assets/vscode.png";
 import Meet from "@/assets/meet.png";
 
@@ -30,11 +30,11 @@ const project_json = [
   },
   {
     id: 4,
-    title: "Chat Application",
+    title: "Instagram Clone",
     description:
-      "Created a MENN stack, with NextJs chat application and integrated real time communication through socket.io",
-    link: "https://github.com/VedantKale08/chat-app-frontend",
-    icon: Chat,
+      "I created a mobile app using Flutter and Firebase. Building this project helped me become better at creating mobile apps",
+    link: "https://github.com/VedantKale08/instagram-clone-flutter",
+    icon: Insta,
   },
 ];
 

@@ -15,6 +15,11 @@
         "level":"80"
     },
     {
+        "id":10,
+        "label":"Flutter",
+        "level":"70"
+    },
+    {
         "id":4,
         "label":"HTML & CSS",
         "level":"90"
@@ -43,10 +48,5 @@
         "id":9,
         "label":"MySQL",
         "level":"75"
-    },
-    {
-        "id":10,
-        "label":"Laravel",
-        "level":"40"
     }
 ]
