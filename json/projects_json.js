@@ -30,7 +30,7 @@ const project_json = [
   },
   {
     id: 4,
-    title: "Instagram Clone",
+    title: "Instagram clone app",
     description:
       "I created a mobile app using Flutter and Firebase. Building this project helped me become better at creating mobile apps",
     link: "https://github.com/VedantKale08/instagram-clone-flutter",
