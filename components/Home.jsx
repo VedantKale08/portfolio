@@ -18,10 +18,12 @@ const HomeV1 = () => {
             <Image src={Wave} alt="wave" className="w-5 h-5"></Image>
             Hello All
           </p>
-          <p className="text-3xl font-bold md:text-start text-center">
+          <p className="md:text-2xl text-md font-bold md:text-start text-center">
             I&apos;m <br />
-            <span className="text-8xl">Vedant Kale</span>,
-            <br /> A skilled, passionated and motivated web/app developer and anime fan!!
+            <span className="md:text-8xl text-5xl">Vedant Kale</span>,
+            <br />
+            <br /> A skilled, passionated and motivated web/app developer and
+            anime fan!!
           </p>
           <div className="flex gap-4 md:justify-start justify-center">
             <Link
