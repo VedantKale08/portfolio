@@ -18,9 +18,10 @@ const HomeV1 = () => {
             <Image src={Wave} alt="wave" className="w-5 h-5"></Image>
             Hello All
           </p>
-          <p className="capitalize md:text-5xl text-3xl font-bold md:text-start text-center">
-            I&apos;m Vedant Kale,
-            <br /> a passionate web developer and anime lover
+          <p className="text-3xl font-bold md:text-start text-center">
+            I&apos;m <br />
+            <span className="text-8xl">Vedant Kale</span>,
+            <br /> A skilled, passionated and motivated web/app developer and anime fan!!
           </p>
           <div className="flex gap-4 md:justify-start justify-center">
             <Link
